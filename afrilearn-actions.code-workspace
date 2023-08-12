@@ -4,5 +4,16 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"terminal.integrated.env.linux": {
+			"KUBECONFIG":"${workspaceFolder}/.kube/kubeconfig.yaml"
+		},
+		"cloudcode.kubeconfigs": [
+			{
+				"name": "/home/mkb/Dev/afrilearn-actions/.kube/kubeconfig.yaml",
+				"configPath": "/home/mkb/Dev/afrilearn-actions/.kube/kubeconfig.yaml"
+			}
+		],
+		"cloudcode.active-kubeconfig": "/home/mkb/Dev/afrilearn-actions/.kube/kubeconfig.yaml"
+	}
 }
